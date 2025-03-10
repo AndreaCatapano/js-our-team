@@ -19,7 +19,7 @@ h1 {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 
@@ -54,3 +54,33 @@ main, .team-cards-container{
     padding: 1rem;
 }
 
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 1100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container{
+        width: 750px;
+    }
+    .team-card{
+        width: calc(50% - 2rem);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 550px;
+    }
+
+    .team-card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
+}
